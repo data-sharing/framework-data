@@ -1,4 +1,4 @@
-```R
+```
 Call:
 glm(formula = will_share ~ sex + age + open + cons + extr + agre + 
     neur, family = "binomial", data = data)
