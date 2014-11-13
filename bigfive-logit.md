@@ -1,3 +1,17 @@
+Logistic regression model explaining the willingness to share data and scripts.
+
+Explaining variables:
+
+- sexmale: 0 = female, 1 = male
+- age in years
+- open: openness (big five)
+- cons: conscientiousness (big five)
+- extr: extraversion (big five)
+- agre: agreeableness (big five)
+- neur: neuroticism (big five)
+
+-----
+
 ```
 Call:
 glm(formula = will_share ~ sex + age + open + cons + extr + agre + 
